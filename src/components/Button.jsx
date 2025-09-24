@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Button = ({children,isSelected,onSelect}) => {
+const Button = ({children,isSelected,...props}) => {
   return (
-    <li><button className={isSelected ? 'active' : undefined} onClick={onSelect}>{children}</button></li>
+    <li><button className={isSelected ? 'active' : undefined} {...props}>{children}</button></li>
   )
 }
 
