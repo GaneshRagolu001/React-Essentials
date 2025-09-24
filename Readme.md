@@ -48,10 +48,7 @@ npm install
 npm run dev   
 npm start      
 
-The app will be available at http://localhost:5173/
- (Vite) or http://localhost:3000/
- (CRA).
-
+ 
 📸 Preview
 
 React Essentials app with a header, core concepts, and interactive example selection.
@@ -67,10 +64,6 @@ Manage state with useState.
 Render content conditionally.
 
 Map over arrays to generate UI dynamically.
-
-📜 License
-
-This project is licensed under the MIT License.
 
 
 ---
